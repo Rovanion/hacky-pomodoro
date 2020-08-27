@@ -6,3 +6,10 @@ Install this thing into your crontab and it will lock your screen every even 15 
 *** Babashka
 *** Notify-send
 *** Physlock
+** Crontab
+The crontab could for example look like:
+
+#+begin_src crontab
+PATH=/home/rovanion/.local/bin:/bin:/usr/bin
+* * * * * * pomodoro
+#+end_src
