@@ -1,0 +1,8 @@
+* A hacky pomodoro timer
+
+Install this thing into your crontab and it will lock your screen every even 15 minutes.
+
+** Dependencies
+*** Babashka
+*** Notify-send
+*** Physlock
